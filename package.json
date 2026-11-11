@@ -1,0 +1,20 @@
+{
+  "name": "simulador-disco",
+  "version": "1.0.0",
+  "description": "Simulador de asignación indexada de espacio en disco (inodos y mapa de bloques). AE4 Sistemas Operativos - UCP.",
+  "scripts": {
+    "start": "tsx src/consola/menu.ts",
+    "test": "vitest run",
+    "coverage": "vitest run --coverage"
+  },
+  "author": "Castillo, Camila; Saquer, Sophia",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "@vitest/coverage-v8": "^5.0.3",
+    "tsx": "^4.20.0",
+    "typescript": "^7.0.2",
+    "vitest": "^5.0.3"
+  }
+}
