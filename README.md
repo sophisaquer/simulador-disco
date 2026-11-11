@@ -129,11 +129,11 @@ Cuando una operación falla, el disco no se modifica.
 
 ## Caso de prueba de la guía
 
-1. Crear `docA.txt` de 4 bloques → bloques 0 a 3.
-2. Crear `docB.txt` de 4 bloques → bloques 4 a 7.
-3. Crear `docC.txt` de 4 bloques → bloques 8 a 11.
+1. Crear `docA.txt` de 4 bloques -> bloques 0 a 3.
+2. Crear `docB.txt` de 4 bloques -> bloques 4 a 7.
+3. Crear `docC.txt` de 4 bloques -> bloques 8 a 11.
 4. Eliminar `docB.txt` → queda un hueco libre en los bloques 4 a 7.
-5. Crear `docD.txt` de 6 bloques → bloques 4, 5, 6, 7, 12 y 13.
+5. Crear `docD.txt` de 6 bloques -> bloques 4, 5, 6, 7, 12 y 13.
 
 Con asignación contigua, `docD.txt` no podría usar el hueco de 4 bloques y tendría que ubicarse a partir del bloque 12. Con asignación indexada, el inodo registra los bloques de las dos zonas. Este caso está incluido en los tests automatizados.
 
